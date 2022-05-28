@@ -1,0 +1,44 @@
+.title {
+    text-align: center;
+    font-size: 40px;
+    padding: 15px;
+    font-weight: 900;
+     
+}
+
+.img1{
+    height: 200px;
+    width: 600px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.hand {
+    height: 185px;
+    width: 185px;
+    
+    
+}
+
+button {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+}
