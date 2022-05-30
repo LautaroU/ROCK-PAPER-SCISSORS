@@ -42,3 +42,10 @@ button {
     display: flex;
     justify-content: center;
 }
+
+.resultadin_css {
+    font-weight: 900;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}

@@ -32,11 +32,11 @@ rockButton.addEventListener("click",playRound);
   computerSelection = computerPlay();
    
   if (playerSelection === computerSelection){
-    console.log("Draw");
+    document.getElementById("result").innerHTML = "Draw";
   }else if (playerSelection === "rock" && computerSelection === "scissors"){
-    console.log("You win! Rock beats Scissors ");
+    document.getElementById("result").innerHTML = "You win! Rock beats Scissors";
   }else if (playerSelection === "rock" && computerSelection === "paper"){
-    console.log("You lose! Paper beats Rock");
+    document.getElementById("result").innerHTML = "You lose! Paper beats Rock";
  
 }
 
@@ -51,11 +51,11 @@ function playRound2 (playerSelection, computerSelection) {
   computerSelection = computerPlay();
    
   if (playerSelection === computerSelection){
-    console.log("Draw");
+    document.getElementById("result").innerHTML = "Draw";
   }else if (playerSelection === "paper" && computerSelection === "scissors"){
-    console.log("You lose! Scissors beats Paper");
+    document.getElementById("result").innerHTML = "You lose! Scissors beats Paper";
   }else if (playerSelection === "paper" && computerSelection === "rock"){
-    console.log("You win! Paper beats Rock");
+    document.getElementById("result").innerHTML = "You win! Paper beats Rock";
 }
 
 }
@@ -69,12 +69,12 @@ function playRound3 (playerSelection, computerSelection) {
   computerSelection = computerPlay();
    
   if (playerSelection === computerSelection){
-    console.log("Draw");
+    document.getElementById("result").innerHTML = "Draw";
   
   }else if (playerSelection === "scissors" && computerSelection === "rock"){
-    console.log("You lose! Rock beats Scissors");
+    document.getElementById("result").innerHTML = "You lose! Rock beats Scissors";
   }else 
-    console.log("You win! Scissors Beats Paper");
+    document.getElementById("result").innerHTML = "You win! Scissors Beats Paper";
   }
   
 
@@ -86,6 +86,7 @@ function game(){
   }
 }
 
+ 
 //function resultadin() {
    // document.getElementById(result);
     
